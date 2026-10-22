@@ -1,0 +1,135 @@
+body {
+    background-color: #eeb4b4;
+    font-family: 'segoe-ui', tahoma, genova, verdana, arial, sans-serif;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+.marqconferencistas{
+    background-color: #000000;
+    color:rgb(214, 20, 20);
+    padding: 8px 0;
+    font-size: 0.9rem;
+    font: italic bold 1.2rem 'segoe-ui', tahoma, genova, verdana, arial, sans-serif;
+    margin-bottom: 25px;
+}
+
+.contenedor-principal{
+    background-color: #f7f7f8; /* Fondo blanco/gris claro de la tarjeta principal */
+  border-top: 4px solid #e62135; /* Borde rojo característico superior */
+  border-radius: 8px;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 35px 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+}
+
+.encabezado{ 
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+.icono-usuario{
+    background-color:#e62135;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.encabezado h2{
+    font-size: 1.8rem;
+    color: #555;
+    margin: 0;
+    font-weight: normal;
+}
+.encabezado h2 strong{
+    color: #111;
+    font-weight: bold;
+}
+
+.grid-tarjetas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    margin-bottom: 35px;
+}
+.tarjeta {
+    background-color: #fff;
+    padding: 15px; 
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.tarjeta img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.tarjeta h3 {
+    font-size: 0.95rem;
+    margin: 5px 0 2px;
+    color: #111;
+    
+}
+.tarjeta .cargo {
+    font-size: 0.75rem;
+    color: #e62135;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    }
+
+.tarjeta p {
+    font-size: 0.75rem;
+    color: #666;
+   line-height: 1.4;
+   margin-bottom: 12px;
+}
+
+.redes-sociales {
+    background-color: #3498db;
+    color: white;
+   width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover {
+    background-color: #1d6fa5;
+}
+.contenedor-boton {
+    text-align: center;
+   
+}
+.btn-rojo {
+    background-color: #e62135;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+.btn-rojo:hover {
+  background-color: #c01123;
+  transform: scale(1.03); }
